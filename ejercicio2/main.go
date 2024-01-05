@@ -39,7 +39,7 @@ func main() {
 
 	fmt.Println("Reading file customer.txt")
 
-	file := readFile("/Users/tocannatella/Documents/BootcampGo/CursoBasesGO/panic/code/ejercicio2/customer.txt")
+	file := readFile("./customer.txt")
 
 	defer func() {
 		fmt.Println("Ejecución Finalizada")
